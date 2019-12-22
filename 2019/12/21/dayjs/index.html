@@ -4,12 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo使用方法, Lisimore">
-    <meta name="description" content="Hexo的部分命令 参照Hexo官网
-部分命令创建一个新文章 命名为 “My New Post”$ hexo new &#34;My New Post&#34;
-More info: Writing
-本地启动$ hexo server
-More info:">
+    <meta name="keywords" content="dayjs, Lisimore">
+    <meta name="description" content="dayjs安装npm i dayjs
+常用apivar dayjs = require(&#39;dayjs&#39;)
+dayjs().format()
+// =&gt; &#34;2019-12-21T19:05:58+08:00&#34;
+
+输出当前的标准格式时间，带时区">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +18,7 @@ More info:">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>hexo使用方法 | Lisimore</title>
+    <title>dayjs | Lisimore</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -263,12 +264,12 @@ More info:">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('http://static.blinkfox.com/20181024-collections.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo使用方法</h1>
+                    <h1 class="description center-align post-title">dayjs</h1>
                 </div>
             </div>
         </div>
@@ -385,12 +386,12 @@ More info:">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/npm/">
+                                <span class="chip bg-color">npm</span>
                             </a>
                         
-                            <a href="/tags/%E5%85%B6%E4%BB%96/">
-                                <span class="chip bg-color">其他</span>
+                            <a href="/tags/%E9%82%A3%E4%BA%9B%E7%A5%9E%E5%A5%87%E7%9A%84%E5%BA%93/">
+                                <span class="chip bg-color">那些神奇的库</span>
                             </a>
                         
                     </div>
@@ -401,8 +402,8 @@ More info:">
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%85%B6%E4%BB%96/" class="post-category">
-                                其他
+                            <a href="/categories/npm/" class="post-category">
+                                npm
                             </a>
                         
                     </div>
@@ -414,28 +415,28 @@ More info:">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-12-17
+                    2019-12-21
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2019-12-18
+                    2019-12-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    663
+                    161
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
 				
@@ -451,25 +452,35 @@ More info:">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Hexo的部分命令 参照<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>官网</p>
-<h2 id="部分命令"><a href="#部分命令" class="headerlink" title="部分命令"></a>部分命令</h2><h3 id="创建一个新文章-命名为-“My-New-Post”"><a href="#创建一个新文章-命名为-“My-New-Post”" class="headerlink" title="创建一个新文章 命名为 “My New Post”"></a>创建一个新文章 命名为 “My New Post”</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="本地启动"><a href="#本地启动" class="headerlink" title="本地启动"></a>本地启动</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="本地更新"><a href="#本地更新" class="headerlink" title="本地更新"></a>本地更新</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="部署到远端-推送到git"><a href="#部署到远端-推送到git" class="headerlink" title="部署到远端(推送到git)"></a>部署到远端(推送到git)</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<h2 id="资源文件夹"><a href="#资源文件夹" class="headerlink" title="资源文件夹"></a>资源文件夹</h2><p>资源（Asset）代表 <code>source</code> 文件夹中除了文章以外的所有文件，例如图片、CSS、JS 文件等。比方说，如果你的Hexo项目中只有少量图片，那最简单的方法就是将它们放在 <code>source/images</code> 文件夹中。然后通过类似于 <code>![](/images/image.jpg)</code> 的方法访问它们。</p>
-<h2 id="文章资源文件夹"><a href="#文章资源文件夹" class="headerlink" title="文章资源文件夹"></a>文章资源文件夹</h2><p>对于那些想要更有规律地提供图片和其他资源以及想要将他们的资源分布在各个文章上的人来说，Hexo也提供了更组织化的方式来管理资源。这个稍微有些复杂但是管理资源非常方便的功能可以通过将 <code>config.yml</code> 文件中的 <code>post_asset_folder</code> 选项设为 <code>true</code> 来打开。</p>
-<pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">post_asset_folder</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></code></pre>
-<p>当资源文件管理功能打开后，Hexo将会在你每一次通过 <code>hexo new [layout] &lt;title&gt;</code> 命令创建新文章时自动创建一个文件夹。这个资源文件夹将会有与这个文章文件一样的名字。将所有与你的文章有关的资源放在这个关联文件夹中之后，你可以通过相对路径来引用它们，这样你就得到了一个更简单而且方便得多的工作流。</p>
-<h2 id="相对路径引用的标签插件"><a href="#相对路径引用的标签插件" class="headerlink" title="相对路径引用的标签插件"></a>相对路径引用的标签插件</h2><p>通过常规的 markdown 语法和相对路径来引用图片和其它资源可能会导致它们在存档页或者主页上显示不正确。在Hexo 2时代，社区创建了很多插件来解决这个问题。但是，随着Hexo 3 的发布，许多新的标签插件被加入到了核心代码中。这使得你可以更简单地在文章中引用你的资源。</p>
-<pre><code>{% asset_path slug %}
-{% asset_img slug [title] %}
-{% asset_link slug [title] %}</code></pre><p>比如说：当你打开文章资源文件夹功能后，你把一个 <code>example.jpg</code> 图片放在了你的资源文件夹中，如果通过使用相对路径的常规 markdown 语法 <code>![](/example.jpg)</code> ，它将 <em>不会</em> 出现在首页上。（但是它会在文章中按你期待的方式工作）</p>
-<p>正确的引用图片方式是使用下列的标签插件而不是 markdown ：</p>
-<pre><code>{% asset_img example.jpg This is an example image %}</code></pre><p>通过这种方式，图片将会同时出现在文章和主页以及归档页中</p>
+                <h2 id="dayjs"><a href="#dayjs" class="headerlink" title="dayjs"></a>dayjs</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre class=" language-javascript"><code class="language-javascript">npm i dayjs</code></pre>
+<h3 id="常用api"><a href="#常用api" class="headerlink" title="常用api"></a>常用api</h3><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">var</span> dayjs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'dayjs'</span><span class="token punctuation">)</span>
+<span class="token function">dayjs</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// => "2019-12-21T19:05:58+08:00"</span></code></pre>
+<blockquote>
+<p>输出当前的标准格式时间，带时区</p>
+</blockquote>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">var</span> dayjs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'dayjs'</span><span class="token punctuation">)</span>
+<span class="token function">dayjs</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">'YYYY-MM-DD hh:mm:ss'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// => "2019-12-21 07:09:03"</span>
+<span class="token keyword">var</span> dayjs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'dayjs'</span><span class="token punctuation">)</span>
+<span class="token function">dayjs</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">'YYYY-MM-DD HH:mm:ss'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// => "2019-12-21 19:10:11"</span></code></pre>
+<blockquote>
+<p>也可以传入格式</p>
+</blockquote>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">var</span> dayjs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"dayjs"</span><span class="token punctuation">)</span>
+<span class="token function">dayjs</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">'year'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">'YYYY-MM-DD HH:mm:ss'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// => "2020-12-21 20:49:04"</span></code></pre>
+<blockquote>
+<p>时间运算</p>
+</blockquote>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">var</span> dayjs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"dayjs"</span><span class="token punctuation">)</span>
+<span class="token function">dayjs</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">startOf</span><span class="token punctuation">(</span><span class="token string">'day'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">'YYYY-MM-DD HH:mm:ss'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// => "2019-12-21 00:00:00"</span></code></pre>
+<blockquote>
+<p>当前日期的开始时间  加一天后就能得到结束时间也就是下一天的开始时间</p>
+</blockquote>
+<p>有简中的<a href="https://github.com/iamkun/dayjs/blob/master/docs/zh-cn/README.zh-CN.md" target="_blank" rel="noopener">dayjs官网</a></p>
 
             </div>
             <hr/>
@@ -495,7 +506,7 @@ More info:">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://mohongchen.github.io/2019/12/17/hexo-shi-yong-fang-fa/">https://mohongchen.github.io/2019/12/17/hexo-shi-yong-fang-fa/</a>
+                    <a href="https://mohongchen.github.io/2019/12/21/dayjs/">https://mohongchen.github.io/2019/12/21/dayjs/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -533,12 +544,12 @@ More info:">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
+                                <a href="/tags/npm/">
+                                    <span class="chip bg-color">npm</span>
                                 </a>
                             
-                                <a href="/tags/%E5%85%B6%E4%BB%96/">
-                                    <span class="chip bg-color">其他</span>
+                                <a href="/tags/%E9%82%A3%E4%BA%9B%E7%A5%9E%E5%A5%87%E7%9A%84%E5%BA%93/">
+                                    <span class="chip bg-color">那些神奇的库</span>
                                 </a>
                             
                         </div>
@@ -584,7 +595,7 @@ More info:">
         repo: 'mohongchen.github.io',
         owner: 'mohongchen',
         admin: "mohongchen",
-        id: '2019-12-17T15-54-13',
+        id: '2019-12-21T19-01-09',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -609,36 +620,36 @@ More info:">
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/12/17/markdown-ji-ben-yu-fa/">
+                <a href="/2019/12/22/js-xiao-zhi-shi-dian-ji-lu/">
                     <div class="card-image">
                         
-                        <img src="http://static.blinkfox.com/20181105-io.jpg" class="responsive-img" alt="Markdown基本语法">
                         
-                        <span class="card-title">Markdown基本语法</span>
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="js小知识点记录">
+                        
+                        <span class="card-title">js小知识点记录</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一、标题在想要设置为标题的文字前面加#来表示一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。
-注：标准语法一般在#后跟个空格再写文字示例：
-# 这是一级标题
-## 这是二级标题
-### 这是三级标题
-#### 这是四级标题
-##
+                            JavaScript
+数组的常用方法
+// 数组的方法分为两种，一种的变异方法（会影响原数组），一种是非变异方法（不会影响原数组）
+// arr.filter(funObj)  过滤
+// arr.forEach(funObj)   循环
+
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-17
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-22
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%85%B6%E4%BB%96/" class="post-category">
-                                    其他
+                            <a href="/categories/JavaScript/" class="post-category">
+                                    JavaScript
                                 </a>
                             
                             
@@ -648,8 +659,12 @@ More info:">
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/markdown/">
-                        <span class="chip bg-color">markdown</span>
+                    <a href="/tags/css/">
+                        <span class="chip bg-color">css</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%B0%8F%E7%9F%A5%E8%AF%86%E7%82%B9/">
+                        <span class="chip bg-color">小知识点</span>
                     </a>
                     
                 </div>
@@ -660,53 +675,52 @@ More info:">
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/12/17/hexo-shi-yong-fang-fa/">
+                <a href="/2019/12/21/inflection/">
                     <div class="card-image">
                         
-                        <img src="http://static.blinkfox.com/20181024-collections.jpg" class="responsive-img" alt="hexo使用方法">
                         
-                        <span class="card-title">hexo使用方法</span>
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="inflection">
+                        
+                        <span class="card-title">inflection</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Hexo的部分命令 参照Hexo官网
-部分命令创建一个新文章 命名为 “My New Post”$ hexo new "My New Post"
-More info: Writing
-本地启动$ hexo server
-More info:
+                            inflection安装npm install inflection
+常用apivar inflection = require('inflection')
+inflection.classify('user_behavlors')
+// 
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-17
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-21
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%85%B6%E4%BB%96/" class="post-category">
-                                    其他
+                            <a href="/categories/npm/" class="post-category">
+                                    npm
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
+                    <a href="/tags/npm/">
+                        <span class="chip bg-color">npm</span>
                     </a>
                     
-                    <a href="/tags/%E5%85%B6%E4%BB%96/">
-                        <span class="chip bg-color">其他</span>
+                    <a href="/tags/%E9%82%A3%E4%BA%9B%E7%A5%9E%E5%A5%87%E7%9A%84%E5%BA%93/">
+                        <span class="chip bg-color">那些神奇的库</span>
                     </a>
                     
                 </div>
